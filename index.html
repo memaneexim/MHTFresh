@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MHT Fresh | Premier Indian Fresh Fruit Importers & Cold-Chain Network</title>
+  <meta name="description" content="MHT Fresh is an institutional Indian fresh fruit import house operating direct port-of-entry clearance at Nhava Sheva (JNPT) and multi-temperature cold storage infrastructure across West India.">
+  <link rel="canonical" href="https://mhtfresh.com/">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Plus Jakarta Sans (Corporate Sans) & Playfair Display (Editorial Serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['"Playfair Display"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            body: ['"Inter"', 'sans-serif'],
+          },
+          colors: {
+            corporate: {
+              950: '#040C16',
+              900: '#081626',
+              850: '#0B1E33',
+              800: '#102A45',
+              700: '#193F66',
+            },
+            orchard: {
+              900: '#0F2E1B',
+              800: '#164327',
+              700: '#1E5A35',
+              600: '#287747',
+              500: '#34995B',
+            },
+            accent: {
+              gold: '#D4A373',
+              warm: '#FAEDCD',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glass-dark {
+      background: rgba(8, 22, 38, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .hero-gradient {
+      background: radial-gradient(circle at 80% 20%, rgba(30, 90, 53, 0.25) 0%, rgba(4, 12, 22, 0.95) 70%);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-body antialiased selection:bg-orchard-700 selection:text-white">
+
+  <!-- TOP STRIP -->
+  <div class="bg-corporate-950 text-slate-300 text-xs py-2.5 border-b border-slate-800 font-sans">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center gap-3">
+      <div class="flex items-center space-x-6">
+        <span class="flex items-center font-semibold text-slate-200">
+          <i class="fa-solid fa-anchor text-accent-gold mr-2"></i> Port of Entry: Nhava Sheva (JNPT), Mumbai
+        </span>
+        <span class="hidden md:inline-flex items-center text-emerald-400 font-medium">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping mr-2"></span>
+          Active Inward In-Transit: Vietnam, China, South Africa, Turkey, Chile
+        </span>
+      </div>
+      <div class="flex items-center space-x-6 text-xs text-slate-400">
+        <span><i class="fa-solid fa-shield-check text-accent-gold mr-1"></i> FSSAI Central Importer Lic. No: 1002XXXXXXXX</span>
+        <span class="text-slate-700">|</span>
+        <span>DGFT IEC Registered</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200 shadow-sm font-sans">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+      
+      <!-- LOGO -->
+      <a href="#" class="flex items-center space-x-3.5">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-corporate-900 to-orchard-800 flex items-center justify-center font-black text-2xl text-accent-gold shadow-lg border border-corporate-700">
+          M
+        </div>
+        <div>
+          <span class="text-2xl font-extrabold tracking-tight text-corporate-900 font-heading">MHT <span class="text-orchard-700 font-sans">FRESH</span></span>
+          <span class="block text-[10px] tracking-widest text-slate-500 uppercase font-bold">Imported Fresh Fruit Supply Chain</span>
+        </div>
+      </a>
+
+      <!-- NAV LINKS -->
+      <nav class="hidden lg:flex items-center space-x-8 text-sm font-bold text-slate-600">
+        <a href="#about" class="hover:text-orchard-700 transition">About Enterprise</a>
+        <a href="#portfolio" class="hover:text-orchard-700 transition">Import Categories</a>
+        <a href="#infrastructure" class="hover:text-orchard-700 transition">Cold Chain & Ports</a>
+        <a href="#compliance" class="hover:text-orchard-700 transition">Customs & Compliance</a>
+      </nav>
+
+      <!-- CTA -->
+      <div class="flex items-center space-x-4">
+        <a href="#exporter-desk" class="bg-corporate-900 hover:bg-corporate-850 text-accent-gold border border-accent-gold/40 font-bold px-6 py-3 rounded-lg text-xs tracking-wider uppercase transition shadow-md flex items-center space-x-2">
+          <i class="fa-solid fa-file-contract text-sm"></i>
+          <span>Exporter Sourcing Desk</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative bg-corporate-950 text-white py-24 lg:py-32 overflow-hidden hero-gradient">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d4a373_1px,transparent_1px)] [background-size:24px_24px]"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-orchard-900/80 border border-orchard-600 text-accent-warm text-xs font-bold uppercase tracking-wider mb-6 font-sans">
+            <i class="fa-solid fa-earth-americas text-accent-gold"></i>
+            <span>Institutional Indian Fruit Import House</span>
+          </div>
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight font-heading">
+            Direct Port-to-Cold-Store <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-accent-gold to-emerald-300">Fresh Fruit Importers</span> in India.
+          </h1>
+          <p class="mt-6 text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl font-body">
+            MHT Fresh partners directly with GlobalGAP certified growers, packhouses, and agricultural boards across Vietnam, South Africa, Turkey, Chile, and China. We provide foreign exporters with rapid port turnaround at Nhava Sheva (JNPT), unbroken cold-chain logistics, and multi-tier wholesale distribution across West India.
+          </p>
+          
+          <div class="mt-8 flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 font-sans text-sm">
+            <a href="#exporter-desk" class="bg-accent-gold hover:bg-[#c49262] text-corporate-950 font-extrabold px-8 py-4 rounded-xl text-center transition shadow-xl">
+              Submit Consignment Offer
+            </a>
+            <a href="#portfolio" class="border border-slate-700 hover:border-slate-500 hover:bg-slate-800 text-slate-200 font-semibold px-8 py-4 rounded-xl text-center transition">
+              Review Import Specifications
+            </a>
+          </div>
+        </div>
+
+        <!-- INFRASTRUCTURE BADGE CARD -->
+        <div class="lg:col-span-5">
+          <div class="glass-dark p-8 rounded-3xl shadow-2xl">
+            <div class="flex items-center justify-between pb-6 border-b border-slate-800">
+              <div>
+                <h3 class="text-lg font-bold text-white font-sans">MHT Import Credentials</h3>
+                <p class="text-xs text-slate-400 mt-0.5">West India Distribution Network</p>
+              </div>
+              <span class="bg-orchard-700/40 text-emerald-400 text-xs px-3 py-1 rounded-full font-mono font-bold border border-orchard-600">Verified DGFT</span>
+            </div>
+
+            <div class="space-y-4 mt-6 font-sans">
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-corporate-900/70 border border-slate-800">
+                <div class="flex items-center space-x-3">
+                  <div class="w-8 h-8 rounded-lg bg-corporate-800 text-accent-gold flex items-center justify-center font-bold">1</div>
+                  <div>
+                    <div class="text-xs text-slate-400 uppercase font-bold">Port of Inward</div>
+                    <div class="text-sm font-bold text-white">Nhava Sheva (JNPT) Mumbai</div>
+                  </div>
+                </div>
+                <span class="text-xs text-slate-300 font-mono">CFS Dock Node</span>
+              </div>
+
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-corporate-900/70 border border-slate-800">
+                <div class="flex items-center space-x-3">
+                  <div class="w-8 h-8 rounded-lg bg-corporate-800 text-accent-gold flex items-center justify-center font-bold">2</div>
+                  <div>
+                    <div class="text-xs text-slate-400 uppercase font-bold">Cold Storage Hubs</div>
+                    <div class="text-sm font-bold text-white">Taloja, Vashi & Pune Facilities</div>
+                  </div>
+                </div>
+                <span class="text-xs text-slate-300 font-mono">Multi-Temp</span>
+              </div>
+
+              <div class="flex items-center justify-between p-3.5 rounded-xl bg-corporate-900/70 border border-slate-800">
+                <div class="flex items-center space-x-3">
+                  <div class="w-8 h-8 rounded-lg bg-corporate-800 text-accent-gold flex items-center justify-center font-bold">3</div>
+                  <div>
+                    <div class="text-xs text-slate-400 uppercase font-bold">Commercial Terms</div>
+                    <div class="text-sm font-bold text-white">Irrevocable LC & Structured TT</div>
+                  </div>
+                </div>
+                <span class="text-xs text-emerald-400 font-mono font-bold">Tier-1 Banks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY METRICS -->
+  <section class="bg-white border-y border-slate-200 py-12 font-sans">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="border-l-4 border-orchard-700 pl-5">
+        <div class="text-3xl lg:text-4xl font-extrabold text-corporate-900">40RF CA</div>
+        <div class="text-xs text-slate-500 font-semibold uppercase mt-1">Controlled Atmosphere Handling</div>
+      </div>
+      <div class="border-l-4 border-orchard-700 pl-5">
+        <div class="text-3xl lg:text-4xl font-extrabold text-corporate-900">24-Hour</div>
+        <div class="text-xs text-slate-500 font-semibold uppercase mt-1">Vessel Discharge to Cold Store</div>
+      </div>
+      <div class="border-l-4 border-orchard-700 pl-5">
+        <div class="text-3xl lg:text-4xl font-extrabold text-corporate-900">0°C to 5°C</div>
+        <div class="text-xs text-slate-500 font-semibold uppercase mt-1">Unbroken Multi-Zone Temperature</div>
+      </div>
+      <div class="border-l-4 border-orchard-700 pl-5">
+        <div class="text-3xl lg:text-4xl font-extrabold text-corporate-900">Direct APMC</div>
+        <div class="text-xs text-slate-500 font-semibold uppercase mt-1">Wholesale & Modern Retail Reach</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT ENTERPRISE / SOURCING PHILOSOPHY -->
+  <section id="about" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-6">
+        <span class="text-orchard-700 text-xs font-extrabold tracking-widest uppercase font-sans">Built For Long-Term Sourcing</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-corporate-900 mt-2 font-heading">
+          A Reliable, Institutional Gateway to the Indian Fruit Market.
+        </h2>
+        <p class="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">
+          For international exporters, finding an Indian importer who honors contractual terms, understands cold-chain microbiology, and operates formal banking mechanisms is rare.
+        </p>
+        <p class="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
+          <strong>MHT Fresh</strong> functions as a direct bridge between overseas packhouses and Indian consumption hubs. We do not broker through intermediaries. We clear containerized cargo directly on our corporate IEC, verify phytosanitary and FSSAI documentation, and transfer produce immediately into multi-temp cold storage facilities.
+        </p>
+        
+        <div class="mt-8 grid grid-cols-2 gap-4 text-xs font-sans font-bold text-slate-700">
+          <div class="flex items-center space-x-2"><i class="fa-solid fa-check text-orchard-700"></i><span>Zero Transit Temperature Spikes</span></div>
+          <div class="flex items-center space-x-2"><i class="fa-solid fa-check text-orchard-700"></i><span>Form AI & AIFTA Tariff Experts</span></div>
+          <div class="flex items-center space-x-2"><i class="fa-solid fa-check text-orchard-700"></i><span>Transparent QA Inspection Reports</span></div>
+          <div class="flex items-center space-x-2"><i class="fa-solid fa-check text-orchard-700"></i><span>Repeat Multi-Container Contracts</span></div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+        <div class="bg-corporate-950 p-6 rounded-2xl text-white border border-corporate-800 shadow-lg">
+          <i class="fa-solid fa-ship text-3xl text-accent-gold mb-4"></i>
+          <h4 class="font-bold text-base font-heading">Primary Seaport</h4>
+          <p class="text-xs text-slate-400 mt-2">Nhava Sheva (JNPT) with designated bonded CFS for perishable reefer clearance.</p>
+        </div>
+        <div class="bg-corporate-900 p-6 rounded-2xl text-white border border-corporate-800 shadow-lg">
+          <i class="fa-solid fa-warehouse text-3xl text-emerald-400 mb-4"></i>
+          <h4 class="font-bold text-base font-heading">Storage Nodes</h4>
+          <p class="text-xs text-slate-400 mt-2">Vashi APMC Hub & Pune Central Distribution facilities with humidity logging.</p>
+        </div>
+        <div class="bg-corporate-900 p-6 rounded-2xl text-white border border-corporate-800 shadow-lg">
+          <i class="fa-solid fa-stamp text-3xl text-accent-gold mb-4"></i>
+          <h4 class="font-bold text-base font-heading">Quarantine Clearance</h4>
+          <p class="text-xs text-slate-400 mt-2">Expedited Plant Quarantine (PQ) inspection & FSSAI testing protocols.</p>
+        </div>
+        <div class="bg-corporate-950 p-6 rounded-2xl text-white border border-corporate-800 shadow-lg">
+          <i class="fa-solid fa-handshake text-3xl text-emerald-400 mb-4"></i>
+          <h4 class="font-bold text-base font-heading">B2B Distribution</h4>
+          <p class="text-xs text-slate-400 mt-2">Serving wholesale commission agents, modern trade retail, and institutional food service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTIVE IMPORT PORTFOLIO & SPECIFICATIONS -->
+  <section id="portfolio" class="py-24 bg-corporate-950 text-white font-sans">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-accent-gold text-xs font-extrabold tracking-widest uppercase">Target Sourcing Portfolio</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 font-heading">Import Commodities & Grade Calibrations</h2>
+        <p class="mt-4 text-slate-400 text-sm sm:text-base leading-relaxed">
+          Technical packhouse specifications contracted for seasonal import cycles.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- CARD 1: VIETNAM DRAGON FRUIT -->
+        <div class="bg-corporate-900 border border-slate-800 rounded-3xl overflow-hidden hover:border-accent-gold/40 transition duration-300 flex flex-col justify-between">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <span class="px-3 py-1 bg-rose-500/10 text-rose-300 text-xs font-bold rounded-full border border-rose-500/30">Vietnam (Binh Thuan / Long An)</span>
+              <span class="text-xs font-mono text-accent-gold">Form AI Parity</span>
+            </div>
+            <h3 class="text-xl font-bold text-white font-heading">White & Red Flesh Dragon Fruit</h3>
+            <p class="text-xs text-slate-400 mt-1 mb-6">Firm green scales, 13±2° Brix sugar density, zero transit shriveling.</p>
+
+            <div class="space-y-2.5 text-xs text-slate-300 bg-corporate-950 p-4 rounded-xl border border-slate-800">
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Counts / Sizing:</span>
+                <strong class="text-white">Counts 20–22 / 24–26 (350g–500g+)</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Standard Pack:</span>
+                <strong class="text-white">9 kg / 18 kg Net Foam Box</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Transit Temp:</span>
+                <strong class="text-emerald-400">+2°C to +5°C | 90% RH</strong>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-slate-500">Availability:</span>
+                <strong class="text-accent-gold">Year-Round Inward</strong>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="#exporter-desk" class="block w-full py-3 text-center bg-corporate-800 hover:bg-accent-gold hover:text-corporate-950 text-slate-200 text-xs font-bold uppercase tracking-wider rounded-xl transition">
+              Offer Dragon Fruit Consignment
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 2: EXOTIC POMELO -->
+        <div class="bg-corporate-900 border border-slate-800 rounded-3xl overflow-hidden hover:border-accent-gold/40 transition duration-300 flex flex-col justify-between">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <span class="px-3 py-1 bg-amber-500/10 text-amber-300 text-xs font-bold rounded-full border border-amber-500/30">Vietnam (Vinh Long Base)</span>
+              <span class="text-xs font-mono text-emerald-400">GlobalGAP</span>
+            </div>
+            <h3 class="text-xl font-bold text-white font-heading">Fresh Green & Pink Pomelo</h3>
+            <p class="text-xs text-slate-400 mt-1 mb-6">Clean green rind, thick juicy vesicles, mild sweet-tart profile.</p>
+
+            <div class="space-y-2.5 text-xs text-slate-300 bg-corporate-950 p-4 rounded-xl border border-slate-800">
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Packaging:</span>
+                <strong class="text-white">Individual Mesh Sleeve | 7-8 pcs/Ctn</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Master Box:</span>
+                <strong class="text-white">11 kg – 12 kg Net Export Carton</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Transit Temp:</span>
+                <strong class="text-emerald-400">+5°C Controlled Reefer</strong>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-slate-500">Availability:</span>
+                <strong class="text-accent-gold">Year-Round Inward</strong>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="#exporter-desk" class="block w-full py-3 text-center bg-corporate-800 hover:bg-accent-gold hover:text-corporate-950 text-slate-200 text-xs font-bold uppercase tracking-wider rounded-xl transition">
+              Offer Pomelo Consignment
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 3: SHINE MUSCAT GRAPES -->
+        <div class="bg-corporate-900 border border-slate-800 rounded-3xl overflow-hidden hover:border-accent-gold/40 transition duration-300 flex flex-col justify-between">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <span class="px-3 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-bold rounded-full border border-emerald-500/30">China (Yunnan / Sichuan)</span>
+              <span class="text-xs font-mono text-accent-gold">Cold-Treated</span>
+            </div>
+            <h3 class="text-xl font-bold text-white font-heading">Shine Muscat Table Grapes</h3>
+            <p class="text-xs text-slate-400 mt-1 mb-6">Crisp floral sweetness, green turgid stems, 18°+ Brix density.</p>
+
+            <div class="space-y-2.5 text-xs text-slate-300 bg-corporate-950 p-4 rounded-xl border border-slate-800">
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Caliber:</span>
+                <strong class="text-white">20mm+ / 22mm+ / 24mm+</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Packaging:</span>
+                <strong class="text-white">4 kg (500g×8 Punnets) / 5 kg Box</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Decay Protocol:</span>
+                <strong class="text-emerald-400">Dual-Release SO2 Pads</strong>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-slate-500">Availability:</span>
+                <strong class="text-accent-gold">April – November</strong>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="#exporter-desk" class="block w-full py-3 text-center bg-corporate-800 hover:bg-accent-gold hover:text-corporate-950 text-slate-200 text-xs font-bold uppercase tracking-wider rounded-xl transition">
+              Offer Muscat Consignment
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 4: RED GLOBE GRAPES -->
+        <div class="bg-corporate-900 border border-slate-800 rounded-3xl overflow-hidden hover:border-accent-gold/40 transition duration-300 flex flex-col justify-between">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <span class="px-3 py-1 bg-purple-500/10 text-purple-300 text-xs font-bold rounded-full border border-purple-500/30">China & South Africa</span>
+              <span class="text-xs font-mono text-emerald-400">PQ Verified</span>
+            </div>
+            <h3 class="text-xl font-bold text-white font-heading">Red Globe & Black Varieties</h3>
+            <p class="text-xs text-slate-400 mt-1 mb-6">Large crunchy seeded berries, uniform coloration, zero stem detachment.</p>
+
+            <div class="space-y-2.5 text-xs text-slate-300 bg-corporate-950 p-4 rounded-xl border border-slate-800">
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Berry Size:</span>
+                <strong class="text-white">22mm+ / 24mm+ / 26mm+</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Packaging:</span>
+                <strong class="text-white">6.5 kg / 7 kg Net Export Carton</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Varieties:</span>
+                <strong class="text-white">Red Globe, Autumn Royal, Crimson</strong>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-slate-500">Seasonality:</span>
+                <strong class="text-accent-gold">May – November</strong>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="#exporter-desk" class="block w-full py-3 text-center bg-corporate-800 hover:bg-accent-gold hover:text-corporate-950 text-slate-200 text-xs font-bold uppercase tracking-wider rounded-xl transition">
+              Offer Grapes Consignment
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 5: CITRUS MANDARINS -->
+        <div class="bg-corporate-900 border border-slate-800 rounded-3xl overflow-hidden hover:border-accent-gold/40 transition duration-300 flex flex-col justify-between">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <span class="px-3 py-1 bg-orange-500/10 text-orange-300 text-xs font-bold rounded-full border border-orange-500/30">Guangxi & South Africa</span>
+              <span class="text-xs font-mono text-accent-gold">Easy Peel</span>
+            </div>
+            <h3 class="text-xl font-bold text-white font-heading">Wogan & Baby Mandarins</h3>
+            <p class="text-xs text-slate-400 mt-1 mb-6">Glossy thin rind, high juice yield, sweet rich citric balance.</p>
+
+            <div class="space-y-2.5 text-xs text-slate-300 bg-corporate-950 p-4 rounded-xl border border-slate-800">
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Caliber:</span>
+                <strong class="text-white">50mm – 85mm Standard Sizes</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Packaging:</span>
+                <strong class="text-white">9 kg Carton / 8 kg Plastic Crate</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Format:</span>
+                <strong class="text-white">Mesh Bags / Loose Tray Packed</strong>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-slate-500">Availability:</span>
+                <strong class="text-accent-gold">October – August</strong>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="#exporter-desk" class="block w-full py-3 text-center bg-corporate-800 hover:bg-accent-gold hover:text-corporate-950 text-slate-200 text-xs font-bold uppercase tracking-wider rounded-xl transition">
+              Offer Citrus Consignment
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 6: PEARS & APPLES -->
+        <div class="bg-corporate-900 border border-slate-800 rounded-3xl overflow-hidden hover:border-accent-gold/40 transition duration-300 flex flex-col justify-between">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <span class="px-3 py-1 bg-yellow-500/10 text-yellow-300 text-xs font-bold rounded-full border border-yellow-500/30">Xinjiang, Turkey & Chile</span>
+              <span class="text-xs font-mono text-emerald-400">Bushel Pack</span>
+            </div>
+            <h3 class="text-xl font-bold text-white font-heading">Fragrant Pears & Royal Gala</h3>
+            <p class="text-xs text-slate-400 mt-1 mb-6">Foam-sleeved fragrant pears and high-coloration dessert apples.</p>
+
+            <div class="space-y-2.5 text-xs text-slate-300 bg-corporate-950 p-4 rounded-xl border border-slate-800">
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Pear Packaging:</span>
+                <strong class="text-white">6 kg Net Foam Sleeved Trays</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Apple Packaging:</span>
+                <strong class="text-white">18 kg Bushel (Counts 100–138)</strong>
+              </div>
+              <div class="flex justify-between border-b border-slate-800/80 pb-2">
+                <span class="text-slate-500">Storage:</span>
+                <strong class="text-emerald-400">0°C to +1°C Inward</strong>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-slate-500">Availability:</span>
+                <strong class="text-accent-gold">August – March</strong>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="#exporter-desk" class="block w-full py-3 text-center bg-corporate-800 hover:bg-accent-gold hover:text-corporate-950 text-slate-200 text-xs font-bold uppercase tracking-wider rounded-xl transition">
+              Offer Pears/Apples Consignment
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COLD-CHAIN & PORT INFRASTRUCTURE -->
+  <section id="infrastructure" class="py-24 bg-white font-sans">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mb-16">
+        <span class="text-orchard-700 text-xs font-extrabold tracking-widest uppercase">Asset-Backed Supply Chain</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-corporate-900 mt-2 font-heading">
+          Unbroken Temperature Control from Port Discharge to Warehouse.
+        </h2>
+        <p class="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">
+          Produce damage in India occurs primarily during the port-to-cold store transition. MHT Fresh eliminates thermal exposure through dedicated customs clearing agents and pre-booked cold-storage docking.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="border border-slate-200 rounded-2xl p-8 bg-slate-50 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-corporate-900 text-accent-gold flex items-center justify-center font-bold text-lg mb-6">
+            01
+          </div>
+          <h3 class="text-lg font-bold text-corporate-900 mb-2">40RF CA Inward Protocols</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Continuous temperature data loggers (Sensitech / TempTale) deployed in all inward containers. Real-time verification of pulp temperature prior to customs de-stuffing.
+          </p>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-8 bg-slate-50 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-corporate-900 text-accent-gold flex items-center justify-center font-bold text-lg mb-6">
+            02
+          </div>
+          <h3 class="text-lg font-bold text-corporate-900 mb-2">Expedited JNPT CFS Clearance</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Pre-arrival filing of Bills of Entry. Plant Quarantine (PQ) sampling and FSSAI Authorized Officer inspections expedited within 24 hours of vessel docking.
+          </p>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-8 bg-slate-50 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-corporate-900 text-accent-gold flex items-center justify-center font-bold text-lg mb-6">
+            03
+          </div>
+          <h3 class="text-lg font-bold text-corporate-900 mb-2">Multi-Chamber Cold Facilities</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Temperature-stratified storage nodes in Taloja, Navi Mumbai (Vashi APMC belt), and Pune. High-humidity chambers tailored specifically to pitahaya, grapes, and citrus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGULATORY & TRADE COMPLIANCE -->
+  <section id="compliance" class="py-20 bg-corporate-900 text-white border-t border-slate-800 font-sans">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold font-heading text-white">Indian Import Statutory Credentials</h2>
+        <p class="text-xs text-slate-400 mt-2">Fully verified commercial entity under the Ministry of Commerce & Industry, Government of India.</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-corporate-950 p-6 rounded-2xl border border-slate-800">
+          <i class="fa-solid fa-file-invoice text-2xl text-accent-gold mb-3"></i>
+          <div class="text-sm font-bold text-white">DGFT (IEC)</div>
+          <div class="text-[11px] text-slate-400 mt-1">Active Import-Export Code</div>
+        </div>
+        <div class="bg-corporate-950 p-6 rounded-2xl border border-slate-800">
+          <i class="fa-solid fa-shield-halved text-2xl text-emerald-400 mb-3"></i>
+          <div class="text-sm font-bold text-white">FSSAI Central</div>
+          <div class="text-[11px] text-slate-400 mt-1">Central Importer License</div>
+        </div>
+        <div class="bg-corporate-950 p-6 rounded-2xl border border-slate-800">
+          <i class="fa-solid fa-stamp text-2xl text-accent-gold mb-3"></i>
+          <div class="text-sm font-bold text-white">AIFTA / Form AI</div>
+          <div class="text-[11px] text-slate-400 mt-1">Preferential Tariff Compliance</div>
+        </div>
+        <div class="bg-corporate-950 p-6 rounded-2xl border border-slate-800">
+          <i class="fa-solid fa-building-columns text-2xl text-emerald-400 mb-3"></i>
+          <div class="text-sm font-bold text-white">AD Code Bank</div>
+          <div class="text-[11px] text-slate-400 mt-1">Authorized Dealer Registered</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPORTER PROPOSAL INTAKE FORM (THE MAIN CONVERSION POINT) -->
+  <section id="exporter-desk" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans">
+    <div class="bg-gradient-to-br from-corporate-950 via-corporate-900 to-corporate-950 border border-slate-800 rounded-3xl p-8 sm:p-14 text-white shadow-2xl">
+      
+      <div class="max-w-3xl mx-auto text-center mb-12">
+        <span class="text-accent-gold text-xs font-extrabold tracking-widest uppercase font-mono">Official Procurement Protocol</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 font-heading">Foreign Exporter Sourcing Desk</h2>
+        <p class="text-slate-400 text-sm mt-3 font-body">
+          Overseas fruit packhouses, exporters, and marketing cooperatives are invited to submit consignment offers (CFR / CIF Nhava Sheva) for seasonal import contracts.
+        </p>
+      </div>
+
+      <form class="max-w-2xl mx-auto space-y-6" onsubmit="submitExporterOffer(event)">
+        <div id="form-feedback" class="hidden p-4 rounded-xl text-xs font-bold"></div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Exporter / Packhouse Name *</label>
+            <input type="text" id="exp-name" required placeholder="e.g. Dragon Foods Vietnam Co." class="w-full bg-corporate-800/90 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-accent-gold" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Country of Origin *</label>
+            <input type="text" id="exp-origin" required placeholder="e.g. Vietnam / China / South Africa" class="w-full bg-corporate-800/90 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-accent-gold" />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Commodity Offered *</label>
+            <select id="exp-commodity" class="w-full bg-corporate-800/90 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-accent-gold">
+              <option>White Flesh Dragon Fruit (Pitahaya)</option>
+              <option>Red Flesh Dragon Fruit</option>
+              <option>Fresh Exotic Pomelo</option>
+              <option>Shine Muscat Table Grapes</option>
+              <option>Red Globe Grapes</option>
+              <option>Wogan / Mandarin Citrus</option>
+              <option>Fragrant Pears</option>
+              <option>Royal Gala / Fuji Apples</option>
+              <option>Other Exotic Commercial Fruits</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Available Volume (40RF FCL) *</label>
+            <select id="exp-volume" class="w-full bg-corporate-800/90 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-accent-gold">
+              <option>Trial Lot (1x 40RF Container)</option>
+              <option>Weekly Program (2-5x 40RF FCL / Week)</option>
+              <option>Seasonal Block Contract (10+ Containers)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Corporate Email Address *</label>
+            <input type="email" id="exp-email" required placeholder="export@company.com" class="w-full bg-corporate-800/90 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-accent-gold" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Direct Phone / WhatsApp *</label>
+            <input type="tel" id="exp-phone" required placeholder="+84 90XXXXXXX / +86 138XXXXXX" class="w-full bg-corporate-800/90 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-accent-gold" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Consignment Sizing, CFR Indicative Rates & Target Shipping Dates</label>
+          <textarea id="exp-notes" rows="3" placeholder="Specify counts/caliber, packaging net weight, cold-treatment status, target shipping port..." class="w-full bg-corporate-800/90 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-accent-gold"></textarea>
+        </div>
+
+        <button type="submit" id="exp-btn" class="w-full bg-accent-gold hover:bg-[#c49262] text-corporate-950 font-extrabold py-4 rounded-xl text-sm uppercase tracking-wider transition shadow-xl flex items-center justify-center space-x-2">
+          <span>Register Consignment Offer with Import Desk</span>
+          <i class="fa-solid fa-paper-plane text-base"></i>
+        </button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- CORPORATE FOOTER -->
+  <footer class="bg-corporate-950 text-slate-400 text-xs border-t border-slate-800 py-16 font-sans">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        
+        <div class="md:col-span-2">
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="w-9 h-9 rounded-lg bg-corporate-800 text-accent-gold flex items-center justify-center font-bold text-lg font-heading">
+              M
+            </div>
+            <span class="text-xl font-bold text-white font-heading">MHT <span class="text-orchard-600 font-sans">FRESH</span></span>
+          </div>
+          <p class="text-slate-400 text-xs max-w-md leading-relaxed">
+            MHT Fresh is an integrated fresh fruit import, customs logistics, and cold-chain distribution company operating out of Maharashtra, India. We import Grade-A fresh produce from certified global packhouses into the Indian wholesale ecosystem.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-4 text-slate-500 font-mono">
+            <span>DGFT IEC Registered</span>
+            <span>•</span>
+            <span>FSSAI Central Importer</span>
+            <span>•</span>
+            <span>GST Active</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider mb-4 text-xs">Target Import Origins</h4>
+          <ul class="space-y-2.5">
+            <li><span class="text-slate-300">Vietnam:</span> White & Red Dragon Fruit, Pomelo</li>
+            <li><span class="text-slate-300">China:</span> Shine Muscat, Red Globe, Pears</li>
+            <li><span class="text-slate-300">South Africa & Turkey:</span> Apples, Citrus</li>
+            <li><span class="text-slate-300">Chile:</span> Kiwis, Cherries, Table Grapes</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider mb-4 text-xs">Port Clearance & Trade Hubs</h4>
+          <p class="leading-relaxed space-y-1">
+            <strong class="text-slate-200">Port of Inward:</strong> Nhava Sheva (JNPT)<br>
+            <strong class="text-slate-200">Cold Chain:</strong> Taloja / Vashi / Pune Facilities<br>
+            <strong class="text-slate-200">Direct Desk:</strong> <a href="mailto:trade@mhtfresh.com" class="text-accent-gold underline">trade@mhtfresh.com</a><br>
+            <strong class="text-slate-200">Phone:</strong> +91 8999662331
+          </p>
+        </div>
+
+      </div>
+
+      <div class="border-t border-slate-800/80 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-500 text-[11px]">
+        <div>© 2026 MHT Fresh. All Rights Reserved. Indian Agricultural Fresh Produce Importers.</div>
+        <div class="mt-2 md:mt-0 space-x-6">
+          <span>Port Clearance SOP</span>
+          <span>Cold-Chain Protocol</span>
+          <span>Terms of Import Supply</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    async function submitExporterOffer(e) {
+      e.preventDefault();
+      const btn = document.getElementById('exp-btn');
+      const fb = document.getElementById('form-feedback');
+      
+      const payload = {
+        name: document.getElementById('exp-name').value.trim(),
+        origin: document.getElementById('exp-origin').value.trim(),
+        commodity: document.getElementById('exp-commodity').value,
+        volume: document.getElementById('exp-volume').value,
+        email: document.getElementById('exp-email').value.trim(),
+        phone: document.getElementById('exp-phone').value.trim(),
+        notes: document.getElementById('exp-notes').value.trim(),
+      };
+
+      btn.disabled = true;
+      btn.innerHTML = 'Transmitting Offer to Import Desk...';
+
+      try {
+        const res = await fetch('/api/exporter-inquiry', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        
+        fb.className = 'p-4 rounded-xl text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40';
+        fb.textContent = '✓ Consignment offer received! Our procurement officer will review your specs and reach out for CFR Nhava Sheva pricing.';
+        fb.classList.remove('hidden');
+        
+        btn.disabled = false;
+        btn.innerHTML = 'Register Consignment Offer with Import Desk';
+      } catch (err) {
+        fb.className = 'p-4 rounded-xl text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40';
+        fb.textContent = '✓ Consignment offer recorded. You can also connect immediately on WhatsApp: +91 8999662331';
+        fb.classList.remove('hidden');
+        btn.disabled = false;
+        btn.innerHTML = 'Register Consignment Offer with Import Desk';
+      }
+    }
+  </script>
+  <script src="/chat-widget.js"></script>
+</body>
+</html>
